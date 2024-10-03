@@ -1,0 +1,27 @@
+<div class="container-fluid clientWrap py-80 ">
+    <div class="container mainContent">
+    	<h2 class="text-center mb-3">Our  <span> Top Developer Partners
+        </span></h2>
+        <p class="col-lg-9 text-center m-auto">Choosing a builder or developer for your next project is a major decision. With so many players in the market, it is vital to know who to trust. That’s why we’ve created this list of the top 10 real estate companies in India. 
+
+        </p>
+		
+        <div class="row mt-5 mb-4">
+            @for(client of clientsImage; track client.img){
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="clientBox" data-aos="fade-up"><img src="{{client.img}}" alt="" class="w-100"></div>
+                </div>
+
+            }
+        	
+           
+           
+            
+        </div>
+        
+        <div class="d-block text-center">
+        	
+        </div>
+        
+    </div>
+</div>

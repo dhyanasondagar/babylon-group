@@ -1,0 +1,43 @@
+.top_head {
+  font-size: 14px;
+  background: #f5f5f5;
+  font-size: 12px;
+  color: #797979;
+
+  a {
+    color: #797979;
+    &:hover {
+        color: #000;
+      }
+
+  }
+
+  .socialMedia {
+    padding: 8px 25px;
+    font-size: 14px;
+    line-height: 34px;
+  }
+  
+  .border_r {
+    border-right: 1px solid #cac6c6;
+  }
+}
+
+
+.top_head_r {
+  text-align: right;
+}
+.top_head > div > div {
+  display: inline-block;
+  padding: 10px 25px;
+  i {
+    margin-right: 5px;
+    font-size: 14px;
+  }
+
+  .border_r {
+    border-right: 1px solid #cac6c6;
+  }
+}
+
+

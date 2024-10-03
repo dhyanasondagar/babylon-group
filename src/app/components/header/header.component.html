@@ -1,0 +1,35 @@
+<header class="bg-white sticky-top border-bottom ">
+  <app-topbar/>
+
+    <nav class="navbar navbar-expand-lg me-5 ">
+        <div class="container-fluid">
+
+          <a class="navbar-brand ms-3" routerLink="/">
+            <img [src]="LOGO" />
+
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse me-3" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+
+                @for(menu of menuItems; track menu; ){
+                  <li class="nav-item position-relative" >
+                    <a [routerLink]="menu?.path"  class="nav-link text-uppercase" aria-current="page"  routerLinkActive="active">{{ menu.title }}</a>
+                  </li>
+
+                }
+
+
+      
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+      <div class="searchW me-3"><fa-icon [icon]="homeIcon" [ngClass]="arrowanimation"></fa-icon></div>
+
+</header>

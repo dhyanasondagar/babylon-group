@@ -1,0 +1,81 @@
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx footer css starts xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+footer{ position:relative;background:#000; color:#777; font-weight:400; font-size:13px; }
+footer h1, footer h3{text-transform:uppercase;  letter-spacing:1px; color:#fff; font-size:16px; font-weight:600; margin-bottom:15px; color:#fff;}
+.footerWrap i{ color:#333b77; font-size:20px; vertical-align:middle; width:30px;}
+.footerWrap a{ color:#777;text-transform: capitalize;}
+.footerWrap a:hover{ color:#fff;}
+.footerWrap p{line-height:22px; margin-bottom:5px;}
+.footerWrap .sm{ width:36px; height:36px; display:inline-block; font-size:18px; line-height:36px; background:#6b6b6b; border-radius:50%; color:#000; text-align:center; margin-right:10px; }
+.footerWrap .sm i{color:#000;}
+.footerWrap .sm:hover i{color:#fff;}
+.footerWrap .fb:hover{ background:#4b69b0;}
+.footerWrap .twitter:hover{ background:#37b1e1;}
+
+.footerWrap ul {margin-left:-15px;}
+.footerWrap ul li{margin-bottom:10px; display:inline-block; padding:0 15px; border-right:1px solid #787878;}
+.footerWrap ul li:last-child{ border-right:none;}
+
+.form-control{ border-radius:0; }
+.form-control:focus{ box-shadow:none;}
+.footerForm{font-size:13px; margin-left:-8px;}
+.footerForm .form-group{ padding-left:8px; margin-bottom:0;}
+.footerForm .form-control{ padding:8px 15px; background:#2c2b2b; border:0;font-size:13px; margin-bottom:8px; margin-right:8px; }
+.contact-form .footerForm .form-control{ padding:8px 15px; background:#f7f7f7; border:0;font-size:13px; margin-bottom:8px; margin-right:8px; }
+.footerForm .form-control::placeholder{ color:#6b6b6b;}
+.footerForm .form-control:focus{ color:#fff;}
+.contact-form .footerForm .form-control:focus{ color:#555;}
+.footerForm textarea{height:75px;}
+.contact-form .footerForm textarea{height:160px;}
+.footerForm .submit{ font-size:15px; font-weight:400; padding:10px; color:#fff; text-transform:uppercase; background:#333b77; }
+.contact-form .footerForm .submit{ font-size:15px; font-weight:400; padding:10px; color:#fff; text-transform:uppercase; background:#333b77; }
+.contact-form .footerForm .submit:hover{background:#21295f;}
+.copyRight{color:#777; border-top:1px solid #202020;} 
+.copyRight a{color:#777;}
+.copyRight a:hover{color:#333b77;}
+
+
+
+.call-info h3 {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.call-info h3::after {
+  display: block;
+  height: 3px;
+  font-weight: bold;
+  background-color: #fff;
+  content: " ";
+  width: 50px;
+  margin-top: .5rem;
+  margin-bottom: 1.5rem;
+}
+
+.call-info p {
+  color: #fff;
+}
+.call-info .info p {
+  color: #fff;
+  margin: 0px;
+  margin-left: 1.5rem;
+  font-weight: 300;
+}
+.call-info .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.call-info ul li .fa {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+
+@media (max-width:575px) {
+.bottom_strip{text-align:center;line-height: 20px;}	
+}
+

@@ -1,0 +1,38 @@
+.projectNameWrap {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.projectName {
+  width: 100%;
+  padding: 25px;
+  background: #ffffffd9;
+}
+.projectName .name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  line-height: 25px;
+  display: flex;
+align-items: center;
+}
+.projectName .name span {
+  width: 50px;
+  height: 44px;
+  line-height: 44px;
+  color: #fff;
+  margin-right: 20px;
+  background: #000;
+  text-align: center;
+  font-size: 24px;
+  float: left;
+}
+.projectName p {
+  margin-bottom: 0;
+  line-height: 28px;
+  color: #5d5d5d;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 0;
+}

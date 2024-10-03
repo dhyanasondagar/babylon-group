@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<ngx-slick-carousel class="carousel" 
+#slickModal="slick-carousel" 
+[config]="slideConfig"
+
+>
+@for (slide of slides; track slide.img) {
+<div ngxSlickItem class="slide"
+>
+
+
+<div class="position-relative">
+<img src="{{ slide.img }}" alt="" width="100%" >
+
+<div class="projectNameWrap">
+<div class="row d-flex align-content-center">
+    <div class="col m-auto projectName">
+        <div class="name"><span>{{slide.id}}</span> {{slide.title}}
+        </div>
+    </div>
+</div>
+</div>
+
+
+</div>
+
+
+
+</div>
+}
+</ngx-slick-carousel>

@@ -1,0 +1,89 @@
+
+
+.mb_80 {
+  margin-bottom: 80px;
+}
+.aboutPic {
+  display: block;
+  position: relative;
+
+  &:before {
+    width: 240px;
+    height: 230px;
+    position: absolute;
+    left: -240px;
+    top: 50%;
+    margin-top: -95px;
+    content: "";
+  }
+
+  .expYears {
+    position: absolute;
+    top: 40px;
+    left: -55px;
+  }
+
+  
+.years .num {
+    width: 120px;
+    height: 115px;
+    border: 5px solid #c2bfbf;
+    position: relative;
+
+    span {
+        color: #333b77;
+        font-size: 85px;
+        font-weight: 700;
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+      }
+
+  }
+
+  p {
+    font-size: 16px;
+    color: #000;
+    margin-top: 20px;
+    font-weight: 500;
+  }
+}
+
+
+
+
+h1,
+h2 {
+ font-size: 50px;
+ color: #333b77;
+ font-weight: 300;
+ text-transform: uppercase;
+ margin-bottom: 30px;
+ letter-spacing: 4px;
+}
+h1 span,
+h2 span {
+ font-weight: 800;
+}
+h2 {
+ color: #333b77;
+ text-transform: uppercase;
+ margin-bottom: 40px;
+}
+h3 {
+ font-size: 16px;
+ font-weight: 600;
+ color: #000;
+ text-transform: uppercase;
+ margin-bottom: 20px;
+}
+h5 {
+ font-size: 18px;
+ font-weight: 700;
+ color: #333b77;
+ text-transform: uppercase;
+}
+
+p {line-height:24px; margin-bottom:25px;}

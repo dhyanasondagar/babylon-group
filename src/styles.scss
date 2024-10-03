@@ -1,0 +1,317 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 24px;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+hr,
+menu,
+nav,
+section {
+  display: block;
+}
+a,
+hr {
+  padding: 0;
+}
+abbr,
+address,
+article,
+aside,
+audio,
+b,
+blockquote,
+body,
+canvas,
+caption,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+p,
+pre,
+q,
+samp,
+section,
+small,
+span,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: 0 0;
+}
+ins,
+mark {
+  background-color: #ff9;
+  color: #000;
+}
+body {
+  line-height: 1;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+bloc kquote:before,
+q:after,
+q:before {
+  content: "";
+  content: none;
+}
+a {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: 0 0;
+}
+ins {
+  text-decoration: none;
+}
+mark {
+  font-style: italic;
+  font-weight: 700;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 8px 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #333b77;
+}
+::selection {
+  background: #c69f81;
+  color: #fff;
+}
+::-moz-selection {
+  background: #555;
+  color: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  overflow-x: hidden !important;
+  color: #565662;
+}
+ol,
+ul,
+li {
+  margin: 0;
+  list-style: none;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slick-dots {
+  bottom: 100px;
+  right: 50px;
+  text-align: right;
+}
+
+.slick-dots li button {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border: 2px solid #333b77;
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active button {
+  background: #333b77;
+  border: 2px solid #fff;
+}
+
+.slick-dots li button {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border: 2px solid #333b77;
+  border-radius: 50%;
+}
+.slick-dots li button:before {
+  display: none;
+}
+
+
+.slick-prev:before, .slick-next:before {
+   display: none;
+}
+
+
+
+.slick-arrow {
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+}
+
+
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  z-index: 99;
+  border: 0;
+  outline: 0;
+  color: transparent;
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.slick-prev:hover,
+.slick-next:hover {
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+}
+.slick-prev {
+  left: 0px;
+  background: url(assets/prev_arrow.png) center center no-repeat #000;
+}
+.slick-prev:hover {
+    background: url(assets/prev_arrow.png) center center no-repeat #333b77;
+}
+.slick-next {
+  right: 0px;
+  background: url(assets/next_arrow.png) center center no-repeat #000;
+}
+.slick-next:hover {
+  background: url(assets/next_arrow.png) center center no-repeat #333b77;
+}
+

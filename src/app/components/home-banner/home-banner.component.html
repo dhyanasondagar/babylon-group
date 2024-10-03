@@ -1,0 +1,30 @@
+
+
+<ngx-slick-carousel class="carousel" 
+                        #slickModal="slick-carousel" 
+                        [config]="slideConfig" 
+                        @fadeIn
+                   >
+        @for (slide of slides; track slide.img) {
+            <div ngxSlickItem class="slide">
+               
+            
+                  <div class="position-relative">
+                    <div class="position-absolute top-50  banner_heading  "> 
+                        <div class="innerHeading">
+                <h2 class="animated fadeInLeft" data-animation-in="fadeInLeft" style="opacity: 1;">{{slide.title}}</h2>
+                <a [routerLink]="slide.path"  class="readMore animated fadeInLeft">   <app-button text="Read More" />   </a>
+                </div>
+            </div>
+
+            <img src="{{ slide.img }}" alt="slide" width="100%">
+
+            </div>
+
+
+
+            </div>
+        }
+    </ngx-slick-carousel>
+    
+  

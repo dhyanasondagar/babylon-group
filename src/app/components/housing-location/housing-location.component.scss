@@ -1,0 +1,13 @@
+.mainContent h1, .mainContent h2{ font-size:50px; color:#333b77; font-weight:300; text-transform:uppercase; margin-bottom:30px;letter-spacing: 4px;}
+.mainContent h1 span, .mainContent h2 span{ font-weight:800;}
+.mainContent h2{color:#333b77; text-transform:uppercase; margin-bottom:40px;}
+.mainContent h3{ font-size:16px; font-weight:600; color:#000; text-transform:uppercase; margin-bottom:20px;}
+.mainContent h5{ font-size:18px; font-weight:700;color:#333b77; text-transform:uppercase;}
+.mainContent p{ margin-bottom: 10px;}
+
+
+
+.mainContent .card img{
+    max-height: 270px;
+    cursor: pointer;
+}
